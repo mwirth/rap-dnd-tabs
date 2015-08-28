@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DndTabs
+Bundle-SymbolicName: org.wimi.rap.dndtabs
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/contribution.xml
+Import-Package: org.eclipse.jface.util,
+ org.eclipse.jface.viewers,
+ org.eclipse.rap.rwt.application;version="3.0.0",
+ org.eclipse.swt,
+ org.eclipse.swt.custom,
+ org.eclipse.swt.dnd,
+ org.eclipse.swt.graphics,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.widgets
